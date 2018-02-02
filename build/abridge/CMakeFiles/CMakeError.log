@@ -1,0 +1,53 @@
+Determining if the pthread_create exist failed with the following output:
+Change Dir: /home/administrator/Swarmathon2016/build/abridge/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec452996001/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec452996001.dir/build.make CMakeFiles/cmTryCompileExec452996001.dir/build
+make[1]: Entering directory `/home/administrator/Swarmathon2016/build/abridge/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/administrator/Swarmathon2016/build/abridge/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec452996001.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec452996001.dir/CheckSymbolExists.c.o   -c /home/administrator/Swarmathon2016/build/abridge/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTryCompileExec452996001
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec452996001.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec452996001.dir/CheckSymbolExists.c.o  -o cmTryCompileExec452996001 -rdynamic 
+CMakeFiles/cmTryCompileExec452996001.dir/CheckSymbolExists.c.o: In function `main':
+CheckSymbolExists.c:(.text+0x16): undefined reference to `pthread_create'
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec452996001] Error 1
+make[1]: Leaving directory `/home/administrator/Swarmathon2016/build/abridge/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec452996001/fast] Error 2
+
+File /home/administrator/Swarmathon2016/build/abridge/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/administrator/Swarmathon2016/build/abridge/CMakeFiles/CMakeTmp
+
+Run Build Command:/usr/bin/make "cmTryCompileExec1046227280/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1046227280.dir/build.make CMakeFiles/cmTryCompileExec1046227280.dir/build
+make[1]: Entering directory `/home/administrator/Swarmathon2016/build/abridge/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/administrator/Swarmathon2016/build/abridge/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1046227280.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTryCompileExec1046227280.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-2.8/Modules/CheckFunctionExists.c
+Linking C executable cmTryCompileExec1046227280
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1046227280.dir/link.txt --verbose=1
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTryCompileExec1046227280.dir/CheckFunctionExists.c.o  -o cmTryCompileExec1046227280 -rdynamic -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [cmTryCompileExec1046227280] Error 1
+make[1]: Leaving directory `/home/administrator/Swarmathon2016/build/abridge/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1046227280/fast] Error 2
+
+

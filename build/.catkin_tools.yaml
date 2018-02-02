@@ -1,0 +1,6 @@
+devel_space: /home/administrator/Swarmathon2016/devel
+install: false
+install_space: /home/administrator/Swarmathon2016/install
+profile: default
+source_space: /home/administrator/Swarmathon2016/src
+workspace: /home/administrator/Swarmathon2016

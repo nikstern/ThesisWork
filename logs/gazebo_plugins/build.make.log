@@ -1,0 +1,4 @@
+[35m[1mScanning dependencies of target gazebo_plugins
+[0m[100%] [32mBuilding CXX object CMakeFiles/gazebo_plugins.dir/src/SetupWorld.cpp.o
+[0m[31m[1mLinking CXX shared library /home/administrator/Swarmathon2016/devel/lib/libgazebo_plugins.so
+[0m[100%] Built target gazebo_plugins

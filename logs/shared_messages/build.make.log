@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_cpp
+[0m[  0%] Built target sensor_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target _shared_messages_generate_messages_check_deps_TagsImage
+[0m[  0%] Built target _shared_messages_generate_messages_check_deps_TagsImage
+[35m[1mScanning dependencies of target std_msgs_generate_messages_cpp
+[0m[  0%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target std_msgs_generate_messages_py
+[0m[  0%] Built target std_msgs_generate_messages_py
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_py
+[0m[  0%] Built target sensor_msgs_generate_messages_py
+[35m[1mScanning dependencies of target std_msgs_generate_messages_lisp
+[0m[  0%] Built target std_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target sensor_msgs_generate_messages_lisp
+[0m[  0%] Built target sensor_msgs_generate_messages_lisp
+[35m[1mScanning dependencies of target shared_messages_generate_messages_cpp
+[0m[ 25%] [34m[1mGenerating C++ code from shared_messages/TagsImage.msg
+[0m[ 25%] Built target shared_messages_generate_messages_cpp
+[35m[1mScanning dependencies of target shared_messages_generate_messages_py
+[0m[ 50%] [34m[1mGenerating Python from MSG shared_messages/TagsImage
+[0m[ 75%] [34m[1mGenerating Python msg __init__.py for shared_messages
+[0m[ 75%] Built target shared_messages_generate_messages_py
+[35m[1mScanning dependencies of target shared_messages_generate_messages_lisp
+[0m[100%] [34m[1mGenerating Lisp code from shared_messages/TagsImage.msg
+[0m[100%] Built target shared_messages_generate_messages_lisp
+[35m[1mScanning dependencies of target shared_messages_generate_messages
+[0m[100%] Built target shared_messages_generate_messages
